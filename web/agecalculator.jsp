@@ -9,16 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Age Calculator</title>
     </head>
     <body>
         <h1>Age Calculator</h1>
-        <form>
+        <form return="false">
             <div>
-                <div>Enter your age: <input type="text" size="25" id="age"></div>
-                <div><input type="button" value="Age next birthday"></div>
-                <span id="message"></span>
-                <div><a href="">Arithmetic Calculator</a></div>
+                <div>Enter your age: <input type="text" size="25" name="age"></div>
+                <div><input type="submit" value="Age next birthday"></div>
+                ${message}
+                <div><a href="arithmeticcalculator.jsp">Arithmetic Calculator</a></div>
             </div>
         </form>
     </body>
